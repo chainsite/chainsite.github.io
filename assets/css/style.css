@@ -167,7 +167,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 0.8px;
   font-family: "Raleway", sans-serif;
-  position: absolute;
 }
 
 #header .logo a {
@@ -1052,6 +1051,9 @@ section {
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+  }
+  #header .logo {
+    position: absolute;
   }
 }
 
