@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   right: 15px;
   top: 15px;
-  z-index: 9998;
+  z-index: 99999;
   border: 0;
   background: none;
   font-size: 24px;
@@ -332,17 +332,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 9999;
   overflow-y: auto;
   background: #fff;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
-  border-radius: 10px;
   padding: 10px 0;
 }
 
@@ -414,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: #000;
 }
 
 .featured-services .title h4 {
