@@ -1805,8 +1805,11 @@ section {
 
 .nav-tabs .nav-link {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 700;
+}
+.nav-link {
+  padding: .5rem 7px;
 }
 
 @media (max-width: 768px) {
@@ -1842,5 +1845,11 @@ section {
 @media (min-width: 992px) {
   .tab-pane {
     padding: 100px 0;
+  }
+  .nav-tabs .nav-link {
+    font-size: 12px;
+  }
+  .nav-link {
+    padding: .5rem 1rem;
   }
 }
