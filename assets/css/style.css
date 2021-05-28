@@ -1855,5 +1855,7 @@ section {
 }
 .center-icon {
   line-height: 0;
-  width: fit-content;
+    max-width: 272px;
+    text-align: center;
+    justify-content: center;
 }
