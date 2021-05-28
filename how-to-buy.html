@@ -330,6 +330,18 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    
+    $(document).ready(function() {
+      var clickedAttr;
+      $( ".next-step" ).click(function() {
+        clickedAttr = $(this).attr("href");
+        $(".nav-link").removeClass("active");
+        $(".nav-link[href='"+clickedAttr+"']").addClass("active");
+      });
+    });
+
+  </script>
 
 </body>
 
