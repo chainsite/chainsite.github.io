@@ -1825,6 +1825,15 @@ section {
   border: 2px solid #106eea;
   color: #106eea !important;
 }
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
 .tab-pane img {
   padding: 0 50px;
   padding-bottom: 30px;
